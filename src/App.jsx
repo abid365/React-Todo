@@ -1,16 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Footer, Header, Todo, Welcome } from "./components";
+import { Footer, NavBar, Todo, Welcome } from "./components";
 
 function App() {
   return (
-    <>
-      <div>
-        <Header></Header>
+    <div>
+      <div className="bg-danger min-vh-100">
+        <NavBar></NavBar>
         <Welcome></Welcome>
       </div>
       <Todo></Todo>
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 
