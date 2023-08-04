@@ -5,7 +5,9 @@ const Welcome = () => {
   return (
     <div className="mx-3 my-5 px-5 text-white">
       <div className="container-fluid">
+        {/* grid */}
         <div className="row">
+          {/* hero text */}
           <div className="col">
             <h1 className="display-3 fw-bolder my-4">
               Supercharge<br></br> Your Productivity
@@ -17,19 +19,21 @@ const Welcome = () => {
               Life!
             </p>
             <div>
-              <button className="btn btn-light mt-4 border-dark border-3">
+              <button className="btn btn-light my-5 border-dark border-3">
                 Get Started{" "}
                 <BsArrowRightCircle className="fw-bold"></BsArrowRightCircle>
               </button>
             </div>
           </div>
+          {/* hero image */}
           <div className="col">
             <img
-              className="img-fluid hero"
+              className="img-fluid"
               src="/src/assets/you-did-it.png"
               alt=""
             />
           </div>
+          {/* bottom box section */}
         </div>
         <div className="container-fluid">
           <div className="border border-3 border-dark p-3 bg-light row">
